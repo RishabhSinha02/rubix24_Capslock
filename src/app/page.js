@@ -1,5 +1,6 @@
 import { redirect } from 'next/navigation';
 import Image from 'next/image';
+import { IoLanguage } from "react-icons/io5";
 
 export default function Home() {
   return (
@@ -158,7 +159,11 @@ const Navbar = () => {
           <li><a target="_blank" href="https://codepen.io/cb2307/full/NzaOrm">Portfolio</a></li>
         </ul>
       </div>
-      <div className="navbar-end mr-16 font-bold text-red-700">
+      <div className="navbar-end mr-16 font-bold text-white">
+        <a className='language mx-4 text-3xl text-red-700'>
+      <IoLanguage />
+        </a>
+
           👽 Rishabh
       </div>
     </div>
