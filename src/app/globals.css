@@ -139,6 +139,23 @@ header {
   transform: scale(1.4);
 }
 
+.cat {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(6, minmax(100px, 1fr));
+}
+
+.cat a {
+  transition: transform .3s;  
+}
+
+.cat a:hover {
+  transition: transform .3s;
+  -ms-transform: scale(1.4);
+  -webkit-transform: scale(1.4);  
+  transform: scale(1.1);
+}
+
 .box img {
   border-radius: 2px;
 }

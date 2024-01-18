@@ -9,30 +9,30 @@ export default function Home() {
 
       <section className="main mx-16">
         <h1 className='heading text-3xl mb-4' id="myList">Categories</h1>
-        <div className="box">
+        <div className="cat">
 
 
-<div className="card border p-4 text-center text-xl">
+<a className="card border p-4 text-center text-xl">
 Horror
-</div>
-<div className="card border p-4 text-center text-xl">
+</a>
+<a className="card border p-4 text-center text-xl">
   Action
-</div>
-<div className="card border p-4 text-center text-xl">
+</a>
+<a className="card border p-4 text-center text-xl">
   
 Drama
-</div>
-<div className="card border p-4 text-center text-xl">
+</a>
+<a className="card border p-4 text-center text-xl">
   
 Thriller
-</div>
-<div className="card border p-4 text-center text-xl">
+</a>
+<a className="card border p-4 text-center text-xl">
 
 Comedy
-</div>
-<div className="card border p-4 text-center text-xl">
+</a>
+<a className="card border p-4 text-center text-xl">
 Romance
-</div>
+</a>
 
 
         </div>
@@ -86,7 +86,7 @@ Romance
           <a href><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m5.PNG?raw=true" alt="" /></a>
           <a href><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/m6.PNG?raw=true" alt="" /></a>
         </div>
-        <h1 className='heading text-3xl mb-4' id="originals">Netflix Originals</h1>
+        <h1 className='heading text-3xl mb-4' id="originals">OptiView Originals</h1>
         <div className="box">
           <a href><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o1.PNG?raw=true" alt="" /></a>
           <a href><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/o2.PNG?raw=true" alt="" /></a>
@@ -124,8 +124,8 @@ Romance
         {/* END OF LINKS */}
         {/* FOOTER */}
         <footer>
-          <p>© 1997-2018 Netflix, Inc.</p>
-          <p>Carlos Avila © 2018</p>
+          <p>© 2023-2050 Opti View, Inc.</p>
+          <p>Rishabh Sinha © 2002</p>
         </footer>
       </section></div>
   )
@@ -158,10 +158,8 @@ const Navbar = () => {
           <li><a target="_blank" href="https://codepen.io/cb2307/full/NzaOrm">Portfolio</a></li>
         </ul>
       </div>
-      <div className="navbar-end">
-        <button className="py-2 mr-16 px-5 border rounded-xl bg-gray-600 text-white border-white hover:bg-orange-600">
-          Sign Up
-        </button>
+      <div className="navbar-end mr-16 font-bold text-red-700">
+          👽 Rishabh
       </div>
     </div>
   );
