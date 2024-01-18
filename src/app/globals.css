@@ -75,7 +75,8 @@ header {
 }
 
 .netflixLogo img {  
-  height: 64px;     
+  height: 64px;
+  width: 256px;     
 }
 
 #logo {
