@@ -134,10 +134,10 @@ Romance
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-black">
+    <div className="navbar">
       <div className="navbar-start">
         <div className="dropdown">
-          <div className="netflixLogo">
+          <div className="netflixLogo ml-4">
             <a id="logo" href="#home"><img src="logo.png" alt="Logo Image" /></a>
           </div>
           <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
@@ -159,7 +159,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <button className="py-2 px-5 border rounded-xl bg-gray-600 text-white border-white hover:bg-orange-600">
+        <button className="py-2 mr-16 px-5 border rounded-xl bg-gray-600 text-white border-white hover:bg-orange-600">
           Sign Up
         </button>
       </div>
