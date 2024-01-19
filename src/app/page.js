@@ -164,7 +164,19 @@ const Navbar = () => {
       <IoLanguage />
         </a>
 
-          👽 Rishabh
+          
+          <details className="dropdown">
+  <summary className="bg-black btn text-white border border-black hover:bg-black hover:border-red-700">👽 Rishabh</summary>
+  <ul className="p-2 shadow menu dropdown-content mt-1 z-[1] bg-black rounded-box">
+    <li><a href='/subscription'>Subcription</a></li>
+    <li><a href="/login">Sign Out</a></li>
+  </ul>
+</details>
+
+
+
+
+
       </div>
     </div>
   );
