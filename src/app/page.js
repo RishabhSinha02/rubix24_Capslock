@@ -40,11 +40,11 @@ Romance
         <h1 className='heading text-3xl mb-4' id="myList">Trending Now</h1>
         <div className="box">
           <a href><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t1.PNG?raw=true" alt="" /></a>
-          <a href><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t2.PNG?raw=true" alt="" /></a>
-          <a href><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t3.PNG?raw=true" alt="" /></a>
+          <a href><img src="https://m.media-amazon.com/images/S/pv-target-images/dd0c3f983018e14e7533ce6d7153ec2c6a0abb16cf884f0d23ad1dd862e50446.jpg" alt="" /></a>
+          <a href><img src="https://images.slivcdn.com/videoasset_images/scam2003thetelgistory_hindi_2nov_landscape_thumb.jpg?h=394&w=708&q=high&fr=webp" alt="" /></a>
           <a href><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t4.PNG?raw=true" alt="" /></a>
-          <a href><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t5.PNG?raw=true" alt="" /></a>
-          <a href><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/t6.PNG?raw=true" alt="" /></a>
+          <a href><img src="https://newsroompost.com/wp-content/uploads/2022/06/Koffee-with-Karan.jpg" alt="" /></a>
+          <a href><img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_2_5x/sources/r1/cms/prod/2546/1612546-h-e2b2b54d8d0a" alt="" /></a>
         </div>
         <div className="location" id="home">
           <h1 className='heading text-3xl mb-4' id="home">Popular in India</h1>

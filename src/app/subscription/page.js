@@ -10,7 +10,7 @@ export default function Subscription() {
     return (
         <div className="subcription-body p-16">
             <div className="upper-subcription flex">
-                <button className="subcription-back text-5xl text-red-700"><IoMdArrowBack /></button>
+                <button className="subcription-back text-5xl text-red-700"> <a href="/"> <IoMdArrowBack /></a></button>
                 <div className="heading text-5xl mx-4">Subscription Calculator</div>
             </div>
 
